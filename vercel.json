@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "mkdir -p dist && curl -fsSL --retry 3 https://raw.githubusercontent.com/HSC-Class01/Sy_portfolio/36ae3aafd7c5b4b9349f93378f397491081c5c57/index.html -o dist/index.html && test $(git hash-object dist/index.html) = 3dd794848180b066e710715f0829db5a85494721",
-  "outputDirectory": "dist",
+  "buildCommand": "",
+  "outputDirectory": ".",
   "cleanUrls": true
 }
